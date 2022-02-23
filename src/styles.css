@@ -1,0 +1,36 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.min.css";
+
+div.card-header {
+    font-size: large;
+   }
+   
+div.card {
+  margin-top: 90px
+}
+
+div.container-fluid{
+  margin-top: 90px
+}
+
+.table {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none; 
+}
+a:hover {
+  text-decoration: underline;
+}
+
+div.left-side {
+  position: absolute;
+  left: 90%;
+}
+
+div.bottom-left-side {
+  position: absolute;
+  left: 50%;
+}
