@@ -1,5 +1,3 @@
-# APM
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.0.
 
 ## Development server
@@ -18,10 +16,13 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## To use `json-server` [ local use only ] :
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice.
+`npm i json-server`
 
-## Further help
+`npm run json-server --watch db.json --port 5000`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Make sure all the data are saved in the `db.json` file & is saved at the root level.
+
+Use the url `http://localhost:5000/${some-key-defined-in-db.json}`
+
